@@ -1,0 +1,28 @@
+{
+  "name": "numspell",
+  "version": "0.0.1",
+  "description": "Spell numbers in words in various languages",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test"
+  },
+  "keywords": [
+    "numbers",
+    "words",
+    "spell"
+  ],
+  "author": "Stefan Stefanov",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/stv_vt/numspell.git"
+  },
+  "homepage": "https://bitbucket.org/stv_vt/numspell#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}

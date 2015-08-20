@@ -12,10 +12,6 @@ describe('EN speller', function () {
 		expect(numSpellEn(25)).to.be.equal('twenty five');
 	});
 
-	it('edge', function () {
-		expect(numSpellEn(1005)).to.be.equal('one thousand and five');
-	});
-
 	it('should convert numbers between 100 and 10000 to words', function () {
 		expect(numSpellEn(200)).to.be.equal('two hundred');
 		expect(numSpellEn(205)).to.be.equal('two hundred and five');

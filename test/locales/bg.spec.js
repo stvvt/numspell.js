@@ -3,7 +3,7 @@
 var expect = require('chai').expect;
 var numSpellBg = require('../../lib/locales/bg.js');
 
-describe('speller', function () {
+describe('BG speller', function () {
 	it('should convert small numbers to words', function () {
 		expect(numSpellBg(1)).to.be.equal('едно');
 		expect(numSpellBg(2)).to.be.equal('две');
@@ -62,14 +62,5 @@ describe('speller', function () {
 		expect(numSpellBg(1000201000)).to.be.equal('един милиард и двеста и една хиляди');
 		expect(numSpellBg(1000201842)).to.be.equal('един милиард двеста и една хиляди осемстотин четиридесет и две');
 		expect(numSpellBg(999999999999)).to.be.equal('деветстотин деветдесет и девет милиарда деветстотин деветдесет и девет милиона деветстотин деветдесет и девет хиляди деветстотин деветдесет и девет');
-	});
-
-	it('should play nice with negatives', function () {
-		expect(numSpellBg(-1)).to.be.equal('минус едно');
-	});
-
-	it('should handle edge cases', function () {
-		expect(numSpellBg(0)).to.be.equal('нула');
-
 	});
 });

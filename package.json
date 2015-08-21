@@ -23,9 +23,9 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@bitbucket.org/stv_vt/numspell.git"
+		"url": "git@github.com:stvvt/numspell.js.git"
 	},
-	"homepage": "https://bitbucket.org/stv_vt/numspell#readme",
+	"homepage": "https://github.com/stvvt/numspell.js"
 	"devDependencies": {
 		"chai": "^3.2.0",
 		"mocha": "^2.2.5"

@@ -1,33 +1,33 @@
 {
-	"name": "numspell",
-	"version": "0.1.0",
-	"description": "Spell numbers in words in various languages",
-	"main": "index.js",
-	"scripts": {
-		"test": "node_modules/mocha/bin/mocha test"
-	},
-	"keywords": [
-		"numbers",
-		"words",
-		"spell",
-		"bulgarian",
-		"english"
-	],
-	"author": {
-		"name": "Stefan Stefanov",
-		"email": "stefan@auxionize.com"
-	},
-	"license": "MIT",
-	"directories": {
-		"test": "test"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:stvvt/numspell.js.git"
-	},
-	"homepage": "https://github.com/stvvt/numspell.js",
-	"devDependencies": {
-		"chai": "^3.2.0",
-		"mocha": "^2.2.5"
-	}
+  "name": "numspell",
+  "version": "0.1.1",
+  "description": "Spell numbers in words in various languages",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test"
+  },
+  "keywords": [
+    "numbers",
+    "words",
+    "spell",
+    "bulgarian",
+    "english"
+  ],
+  "author": {
+    "name": "Stefan Stefanov",
+    "email": "stefan@auxionize.com"
+  },
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stvvt/numspell.js.git"
+  },
+  "homepage": "https://github.com/stvvt/numspell.js",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
 }
